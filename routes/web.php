@@ -37,7 +37,14 @@ Route::controller(AdminController::class)->group(function () {
 ///// Admin Routes
 Route::controller(HomeSliderController::class)->group(function () {
     Route::get('/all/slider/', 'AllSlider')->name('all.slider');
+    Route::get('/add/slider', 'AddSlider')->name('add.slider');
+    Route::post('/store/slider', 'StoreSlider')->name('store_slider');
+
+    Route::Get('/edit/slid/{id}', 'EditSlide')->name('edit.slider');
     Route::post('/update/slider', 'UpdateSlider')->name('update.slider');
+    route::get('/delete/slider/{Id}', 'DeleteSlider')->name('delete.slider');
+
+    //// Front end ////////
     Route::get('/slider/user', 'SliderUsers')->name('slider.users');
 
    

@@ -33,7 +33,7 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="{{ route('all.slider') }}">All Slider</a></li>
-                        <li><a href="email-read.html">Add Slider</a></li>
+                        <li><a href="{{ route('add.slider') }}">Add Slider</a></li>
                     </ul>
                 </li>
 

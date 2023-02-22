@@ -18,6 +18,13 @@
       <link rel="stylesheet" href="{{ asset('frontend/assets/css/bootstrap.min.css')}}">
       <!-- style css -->
       <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}">
+
+
+
+
+
+
+
       <!-- Responsive-->
       <link rel="stylesheet" href="{{ asset('frontend/assets/css/responsive.css') }}">
       <!-- fevicon -->
@@ -25,7 +32,8 @@
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="{{ asset('frontend/assets/css/jquery.mCustomScrollbar.min.css') }}">
       <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    
    </head>
@@ -72,10 +80,15 @@
                                     <a class="nav-link" href="ourwork.html">Our Work</a>
                                  </li>
                                  <li class="nav-item">
+                                    <a class="nav-link" href="contact.html"> Blog</a>
+                                 </li>
+                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact Us</a>
                                  </li>
+
+                                 
                               </ul>
-                              <div class="sign_btn"><a href="#">Get A Quote</a></div>
+                              {{-- <div class="sign_btn"><a href="#">Get A Quote</a></div> --}}
                            </div>
                         </nav>
                      </div>
@@ -129,7 +142,13 @@
             <div class="copyright">
                <div class="container">
                   <div class="row">
-                     <div class="col-md-12">
+                     <div class="col-md-12"><div class="footer-icons">
+      <a href="https://www.facebook.com/" class="generic-anchor" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/" class="generic-anchor" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="http://instagram.com/" class="generic-anchor" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.youtube.com/" class="generic-anchor" target="_blank"><i class="fa fa-youtube"></i></a>
+   
+      </div>
                         <p>© 2023 All Rights Reserved. <a href="https://greenviewsoft.com/"> GreenViewSoft</a></p>
                      </div>
                   </div>
@@ -147,7 +166,14 @@
       <!-- sidebar -->
       <script src="{{ asset('frontend/assets/js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
       <script src="{{ asset('frontend/assets/js/custom.js') }}"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>  
+
+
+
+
+
+
+
    </body>
 </html>
 
